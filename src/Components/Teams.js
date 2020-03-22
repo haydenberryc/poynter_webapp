@@ -314,6 +314,7 @@ export default class Teams extends React.Component {
                             <input type="text" onChange={this.handleNameChange} value={this.state.guest_name}></input>
                             <h3>Guest Average</h3>
                             <input type="text" onChange={this.handleAvgChange} value={this.state.guest_avg}></input>
+                            {/* eslint-disable-next-line */}
                             <h3></h3>
                             <Button type="submit" onClick={this.handleSubmit}><text>Add Guest</text></Button>
                         </form>

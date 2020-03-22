@@ -85,6 +85,13 @@ export default class NavBar extends React.Component {
             );
         }
         let teamsLink = null;
+        if (this.props.isAuthenticated) {
+            teamsLink = (
+                <NavItem>
+                    <RouterNavLink to="/teams" className="nav-link" exact>Teams</RouterNavLink>
+                </NavItem>
+            );
+        }
 
         return (
             <div>

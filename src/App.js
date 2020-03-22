@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar';
 import ErrorMessage from './Components/ErrorMessage';
 import Home from './Components/Home';
 import Points from './Components/Points';
+import Teams from './Components/Teams';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -150,6 +151,11 @@ class App extends Component {
             <Route exact path="/points"
               render={(props) =>
                 <Points {...props}
+                  showError={this.setErrorMessage.bind(this)} />
+              } />
+            <Route exact path="/teams"
+              render={(props) =>
+                <Teams {...props}
                   showError={this.setErrorMessage.bind(this)} />
               } />
           </Container>

@@ -33,5 +33,4 @@ export async function getPoints(accessToken) {
 
 //hayden's drive
 ///drives/163a5b1063203165/items/163A5B1063203165!1282/workbook/worksheets('{41290A05-F07B-4781-A983-8BBE34107212}')/Range(address='Sheet1!A7:C66')")
-
 //drives/4f38134c5b4a4df8/items/4F38134C5B4A4DF8!2287
